@@ -11,6 +11,7 @@ const loadAllphones = async (isShowed = false, category) => {
     
 }
  
+
 const displayAllPhone = (phones) => {
     document.getElementById('phones-container').innerHTML=""
     const phonesContainer = document.getElementById('phones-container');
