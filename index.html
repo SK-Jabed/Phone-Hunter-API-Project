@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>PHONE HUNTER</title>
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@4.12.11/dist/full.min.css"
       rel="stylesheet"
@@ -248,20 +248,20 @@
     </nav>
 
     <div class="w-full max-w-sm mx-auto mt-5">
-      <form class="flex items-center">
+      <div class="flex items-center">
         <input
           type="text"
           placeholder="Search..."
           class="w-full px-4 py-2 border border-gray-300 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
         />
         <button
-          onclick="handleSpinner()"
+          onclick="handleSearchButton()"
           type="submit"
           class="px-4 py-2 bg-blue-500 text-white font-semibold rounded-r-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
         >
           Search
         </button>
-      </form>
+      </div>
     </div>
     <!-- all phone show in this container -->
     <div
@@ -270,7 +270,7 @@
     >
       <!-- here we showed our spinner -->
       <div id="spinner"></div>
-      <!-- here we make our ophone card  -->
+      <!-- here we make our phone card  -->
       <!-- <div class="max-w-sm m-3 p-5 bg-white rounded-lg shadow-md overflow-hidden border border-gray-300">
     <img class="w-24 mx-auto" src="https://www.apple.com/newsroom/images/2024/09/apple-debuts-iphone-16-pro-and-iphone-16-pro-max/article/Apple-iPhone-16-Pro-hero-240909_inline.jpg.medium_2x.jpg" alt="Product Image">
     <div class="p-5 text-center">
@@ -286,7 +286,7 @@
     <div class="text-center">
       <button
         onclick="handleShowAll()"
-        class="btn bg-red-400 text-center w-24 p-3"
+        class="btn bg-red-400 text-center w-24 p-3 m-2"
       >
         Show All
       </button>
@@ -385,11 +385,6 @@
         </div>
       </footer>
     </div>
-
-   
-
-    
-
-    <script src="./js/index.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
